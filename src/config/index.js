@@ -4,5 +4,6 @@ dotenv.config();
 
 module.exports = {
     Logger: require('./logger-config') ,
-    ServerConfig: require('./server-config')
+    ServerConfig: require('./server-config'),
+    MAILER: require('./email-config')
 };
